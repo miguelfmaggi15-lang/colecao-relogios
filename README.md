@@ -12,8 +12,17 @@ Projeto Integrado de DWS, POO e Banco de Dados · Etapa 1
 
 ## Planejamento das telas
 
-- [Wireframe desktop](docs/wireframe.svg)
-- [Mapa do site](docs/mapa-do-site.drawio) — baixe o arquivo e abra no [draw.io](https://app.diagrams.net/).
+### Mapa do site
+
+![Mapa de navegação da Coleção de Relógios](docs/mapa-do-site.png)
+
+Baixe o [arquivo editável](docs/mapa-do-site.drawio) e abra no [draw.io](https://app.diagrams.net/).
+
+### Wireframe desktop
+
+![Wireframe das oito telas da Coleção de Relógios](docs/wireframe.svg)
+
+[Abrir o wireframe em tamanho original](docs/wireframe.svg)
 
 ## Banco e conexão
 
