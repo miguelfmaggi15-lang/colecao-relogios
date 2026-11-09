@@ -10,6 +10,11 @@ Projeto Integrado de DWS, POO e Banco de Dados · Etapa 1
 - [Diagrama de classes UML](docs/diagrama-classes.md)
 - [Resumo da Etapa 1](docs/ETAPA1.md)
 
+## Planejamento das telas
+
+- [Wireframe desktop](docs/wireframe.svg)
+- [Mapa do site](docs/mapa-do-site.drawio) — baixe o arquivo e abra no [draw.io](https://app.diagrams.net/).
+
 ## Banco e conexão
 
 Com o MySQL 8.0.16 ou superior em execução, abra o cliente MySQL e carregue o [script do banco](database/banco.sql) uma vez em um banco novo.

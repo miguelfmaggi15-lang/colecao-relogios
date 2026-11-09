@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1990" viewBox="0 0 1500 1990" role="img" aria-labelledby="title desc" font-family="Arial, sans-serif"><title id="title">Wireframe desktop da Coleção de Relógios</title><desc id="desc">Oito telas em baixa fidelidade, da entrada ao cadastro, consulta e organização dos relógios.</desc>
+<rect x="0" y="0" width="1500" height="1990" rx="0" fill="#f5f5f5" stroke="none"/>
+<text x="46" y="62" font-size="35" font-weight="700" fill="#202020" text-anchor="start">Wireframe desktop</text>
+<text x="46" y="91" font-size="15" font-weight="500" fill="#4b4b4b" text-anchor="start">Coleção de Relógios  /  DWS  /  Baixa fidelidade</text>
+<path d="M46 110 L1454 110" fill="none" stroke="#999"/>
+<text x="46" y="137" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Entrar</text>
+<rect x="46" y="150" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(46 150)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="191" y="92" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Entrar</text>
+<text x="191" y="134" font-size="13" font-weight="600" fill="#202020" text-anchor="start">E-mail</text>
+<rect x="191" y="141" width="304" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="200" y="160" font-size="12" font-weight="400" fill="#515151" text-anchor="start">voce@exemplo.com</text>
+<text x="191" y="189" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Senha</text>
+<rect x="191" y="196" width="304" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="200" y="215" font-size="12" font-weight="400" fill="#515151" text-anchor="start">••••••••</text>
+<rect x="191" y="235" width="304" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="343.0" y="256" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Entrar</text>
+<text x="191" y="288" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Ainda não tem conta? Criar conta</text>
+</g>
+<text x="768" y="137" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Criar conta</text>
+<rect x="768" y="150" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(768 150)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="191" y="92" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Criar conta</text>
+<text x="191" y="126" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Nome</text>
+<rect x="191" y="133" width="304" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="200" y="152" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Seu nome</text>
+<text x="191" y="181" font-size="13" font-weight="600" fill="#202020" text-anchor="start">E-mail</text>
+<rect x="191" y="188" width="304" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="200" y="207" font-size="12" font-weight="400" fill="#515151" text-anchor="start">voce@exemplo.com</text>
+<text x="191" y="236" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Senha</text>
+<rect x="191" y="243" width="304" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="200" y="262" font-size="12" font-weight="400" fill="#515151" text-anchor="start">••••••••</text>
+<rect x="191" y="282" width="304" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="343.0" y="303" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Criar conta</text>
+<text x="191" y="335" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Já tem conta? Entrar</text>
+</g>
+<text x="46" y="595" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Minha coleção</text>
+<rect x="46" y="608" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(46 608)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="378" y="29" font-size="13" font-weight="700" fill="#202020" text-anchor="start">Coleção</text>
+<path d="M378 38 L423 38" fill="none" stroke="#222"/>
+<text x="454" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Pastas</text>
+<text x="640" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Sair</text>
+<text x="22" y="95" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Minha coleção</text>
+<rect x="534" y="69" width="130" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="599.0" y="90" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Novo relógio</text>
+<text x="22" y="121" font-size="13" font-weight="500" fill="#505050" text-anchor="start">Todos os relógios</text>
+<rect x="22" y="149" width="207" height="137" rx="4" fill="#fff" stroke="#777"/>
+<rect x="22" y="149" width="207" height="79" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M22 149 L229 228" fill="none" stroke="#c8c8c8"/>
+<path d="M229 149 L22 228" fill="none" stroke="#c8c8c8"/>
+<rect x="100.5" y="178.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="125.5" y="192.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto</text>
+<text x="32" y="249" font-size="11" font-weight="500" fill="#505050" text-anchor="start">Casio</text>
+<text x="32" y="270" font-size="14" font-weight="700" fill="#202020" text-anchor="start">F-91W</text>
+<rect x="239" y="149" width="207" height="137" rx="4" fill="#fff" stroke="#777"/>
+<rect x="239" y="149" width="207" height="79" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M239 149 L446 228" fill="none" stroke="#c8c8c8"/>
+<path d="M446 149 L239 228" fill="none" stroke="#c8c8c8"/>
+<rect x="317.5" y="178.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="342.5" y="192.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto</text>
+<text x="249" y="249" font-size="11" font-weight="500" fill="#505050" text-anchor="start">Seiko</text>
+<text x="249" y="270" font-size="14" font-weight="700" fill="#202020" text-anchor="start">Seiko 5</text>
+<rect x="456" y="149" width="207" height="137" rx="4" fill="#fff" stroke="#777"/>
+<rect x="456" y="149" width="207" height="79" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M456 149 L663 228" fill="none" stroke="#c8c8c8"/>
+<path d="M663 149 L456 228" fill="none" stroke="#c8c8c8"/>
+<rect x="534.5" y="178.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="559.5" y="192.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto</text>
+<text x="466" y="249" font-size="11" font-weight="500" fill="#505050" text-anchor="start">Orient</text>
+<text x="466" y="270" font-size="14" font-weight="700" fill="#202020" text-anchor="start">Bambino</text>
+</g>
+<text x="768" y="595" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Detalhes do relógio</text>
+<rect x="768" y="608" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(768 608)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="378" y="29" font-size="13" font-weight="700" fill="#202020" text-anchor="start">Coleção</text>
+<path d="M378 38 L423 38" fill="none" stroke="#222"/>
+<text x="454" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Pastas</text>
+<text x="640" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Sair</text>
+<text x="22" y="70" font-size="12" font-weight="400" fill="#202020" text-anchor="start">‹ Minha coleção</text>
+<rect x="22" y="89" width="275" height="151" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M22 89 L297 240" fill="none" stroke="#c8c8c8"/>
+<path d="M297 89 L22 240" fill="none" stroke="#c8c8c8"/>
+<rect x="134.5" y="154.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="159.5" y="168.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto principal</text>
+<rect x="22" y="251" width="68" height="43" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M22 251 L90 294" fill="none" stroke="#c8c8c8"/>
+<path d="M90 251 L22 294" fill="none" stroke="#c8c8c8"/>
+<rect x="31.0" y="262.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="56.0" y="276.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto 1</text>
+<rect x="100" y="251" width="68" height="43" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M100 251 L168 294" fill="none" stroke="#c8c8c8"/>
+<path d="M168 251 L100 294" fill="none" stroke="#c8c8c8"/>
+<rect x="109.0" y="262.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="134.0" y="276.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto 2</text>
+<text x="321" y="109" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Casio F-91W</text>
+<text x="321" y="141" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Referência</text>
+<text x="420" y="141" font-size="13" font-weight="400" fill="#202020" text-anchor="start">F-91W-1</text>
+<text x="321" y="163" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Mecanismo</text>
+<text x="420" y="163" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Quartzo</text>
+<text x="321" y="185" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Mostrador</text>
+<text x="420" y="185" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Preto</text>
+<text x="321" y="207" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Aquisição</text>
+<text x="420" y="207" font-size="13" font-weight="400" fill="#202020" text-anchor="start">12/10/2026</text>
+<text x="321" y="229" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Preço</text>
+<text x="420" y="229" font-size="13" font-weight="400" fill="#202020" text-anchor="start">R$ 179,00</text>
+<text x="321" y="251" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Pastas</text>
+<text x="420" y="251" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Uso diário</text>
+<text x="321" y="283" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Observações</text>
+<text x="321" y="306" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Comprado para uso diário.</text>
+<rect x="321" y="344" width="95" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="368.5" y="365" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Editar</text>
+<rect x="425" y="344" width="95" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="472.5" y="365" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Excluir</text>
+</g>
+<text x="46" y="1053" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Novo relógio</text>
+<rect x="46" y="1066" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(46 1066)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="378" y="29" font-size="13" font-weight="700" fill="#202020" text-anchor="start">Coleção</text>
+<path d="M378 38 L423 38" fill="none" stroke="#222"/>
+<text x="454" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Pastas</text>
+<text x="640" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Sair</text>
+<text x="22" y="68" font-size="12" font-weight="400" fill="#202020" text-anchor="start">‹ Minha coleção</text>
+<text x="22" y="99" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Novo relógio</text>
+<text x="22" y="126" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Marca</text>
+<rect x="22" y="133" width="309" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="31" y="152" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Selecionar marca</text>
+<text x="232" y="126" font-size="12" font-weight="600" fill="#202020" text-anchor="start">Outra marca</text>
+<text x="352" y="126" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Modelo</text>
+<rect x="352" y="133" width="310" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="361" y="152" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Digite o modelo</text>
+<text x="22" y="180" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Referência</text>
+<rect x="22" y="187" width="194" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="232" y="180" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Mecanismo</text>
+<rect x="232" y="187" width="206" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="241" y="206" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Selecionar</text>
+<text x="454" y="180" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Cor do mostrador</text>
+<rect x="454" y="187" width="208" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="22" y="234" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Data de aquisição (opcional)</text>
+<rect x="22" y="241" width="194" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="31" y="260" font-size="12" font-weight="400" fill="#515151" text-anchor="start">dd/mm/aaaa</text>
+<text x="232" y="234" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Preço (opcional)</text>
+<rect x="232" y="241" width="206" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="241" y="260" font-size="12" font-weight="400" fill="#515151" text-anchor="start">R$</text>
+<text x="454" y="234" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Observações (opcional)</text>
+<rect x="454" y="241" width="208" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="22" y="289" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Fotos (opcional)</text>
+<rect x="22" y="296" width="127" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="85.5" y="317" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Adicionar fotos</text>
+<text x="352" y="289" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Pastas (opcional)</text>
+<rect x="352" y="296" width="310" height="32" rx="4" fill="#fff" stroke="#777"/>
+<text x="362" y="317" font-size="12" font-weight="400" fill="#202020" text-anchor="start">Selecionar uma ou mais pastas</text>
+<rect x="471" y="354" width="82" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="512.0" y="375" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Cancelar</text>
+<rect x="562" y="354" width="100" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="612.0" y="375" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Salvar</text>
+</g>
+<text x="768" y="1053" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Editar relógio</text>
+<rect x="768" y="1066" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(768 1066)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="378" y="29" font-size="13" font-weight="700" fill="#202020" text-anchor="start">Coleção</text>
+<path d="M378 38 L423 38" fill="none" stroke="#222"/>
+<text x="454" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Pastas</text>
+<text x="640" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Sair</text>
+<text x="22" y="68" font-size="12" font-weight="400" fill="#202020" text-anchor="start">‹ Detalhes do relógio</text>
+<text x="22" y="99" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Editar relógio</text>
+<text x="22" y="126" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Marca</text>
+<rect x="22" y="133" width="309" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="31" y="152" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Casio</text>
+<text x="232" y="126" font-size="12" font-weight="600" fill="#202020" text-anchor="start">Outra marca</text>
+<text x="352" y="126" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Modelo</text>
+<rect x="352" y="133" width="310" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="361" y="152" font-size="12" font-weight="400" fill="#515151" text-anchor="start">F-91W</text>
+<text x="22" y="180" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Referência</text>
+<rect x="22" y="187" width="194" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="31" y="206" font-size="12" font-weight="400" fill="#515151" text-anchor="start">F-91W-1</text>
+<text x="232" y="180" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Mecanismo</text>
+<rect x="232" y="187" width="206" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="241" y="206" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Quartzo</text>
+<text x="454" y="180" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Cor do mostrador</text>
+<rect x="454" y="187" width="208" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="463" y="206" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Preto</text>
+<text x="22" y="234" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Data de aquisição (opcional)</text>
+<rect x="22" y="241" width="194" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="31" y="260" font-size="12" font-weight="400" fill="#515151" text-anchor="start">dd/mm/aaaa</text>
+<text x="232" y="234" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Preço (opcional)</text>
+<rect x="232" y="241" width="206" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="241" y="260" font-size="12" font-weight="400" fill="#515151" text-anchor="start">R$</text>
+<text x="454" y="234" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Observações (opcional)</text>
+<rect x="454" y="241" width="208" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="22" y="289" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Fotos (opcional)</text>
+<rect x="22" y="296" width="127" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="85.5" y="317" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Adicionar fotos</text>
+<text x="160" y="317" font-size="12" font-weight="400" fill="#202020" text-anchor="start">1 foto</text>
+<text x="352" y="289" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Pastas (opcional)</text>
+<rect x="352" y="296" width="310" height="32" rx="4" fill="#fff" stroke="#777"/>
+<text x="362" y="317" font-size="12" font-weight="400" fill="#202020" text-anchor="start">Selecionar uma ou mais pastas</text>
+<rect x="471" y="354" width="82" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="512.0" y="375" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Cancelar</text>
+<rect x="562" y="354" width="100" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="612.0" y="375" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Salvar</text>
+</g>
+<text x="46" y="1511" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Pastas</text>
+<rect x="46" y="1524" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(46 1524)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="378" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Coleção</text>
+<text x="454" y="29" font-size="13" font-weight="700" fill="#202020" text-anchor="start">Pastas</text>
+<path d="M454 38 L499 38" fill="none" stroke="#222"/>
+<text x="640" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Sair</text>
+<text x="22" y="95" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Pastas</text>
+<text x="22" y="136" font-size="13" font-weight="600" fill="#202020" text-anchor="start">Nova pasta</text>
+<rect x="22" y="143" width="275" height="28" rx="4" fill="#fff" stroke="#777"/>
+<text x="31" y="162" font-size="12" font-weight="400" fill="#515151" text-anchor="start">Nome da pasta</text>
+<rect x="309" y="141" width="78" height="32" rx="4" fill="#242424" stroke="#242424"/>
+<text x="348.0" y="162" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">Criar</text>
+<path d="M22 237 L664 237" fill="none" stroke="#aaa"/>
+<text x="22" y="217" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Uso diário</text>
+<text x="335" y="217" font-size="13" font-weight="400" fill="#505050" text-anchor="start">2 relógios</text>
+<rect x="590" y="195" width="74" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="627.0" y="216" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Abrir</text>
+<path d="M22 293 L664 293" fill="none" stroke="#aaa"/>
+<text x="22" y="273" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Ocasiões especiais</text>
+<text x="335" y="273" font-size="13" font-weight="400" fill="#505050" text-anchor="start">1 relógio</text>
+<rect x="590" y="251" width="74" height="32" rx="4" fill="#fff" stroke="#242424"/>
+<text x="627.0" y="272" font-size="13" font-weight="600" fill="#242424" text-anchor="middle">Abrir</text>
+</g>
+<text x="768" y="1511" font-size="18" font-weight="700" fill="#202020" text-anchor="start">Detalhes da pasta</text>
+<rect x="768" y="1524" width="686" height="410" rx="8" fill="#fff" stroke="#737373"/>
+<g transform="translate(768 1524)">
+<path d="M0 46 L686 46" fill="none" stroke="#aaa"/>
+<text x="20" y="29" font-size="15" font-weight="700" fill="#202020" text-anchor="start">Coleção de Relógios</text>
+<text x="378" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Coleção</text>
+<text x="454" y="29" font-size="13" font-weight="700" fill="#202020" text-anchor="start">Pastas</text>
+<path d="M454 38 L499 38" fill="none" stroke="#222"/>
+<text x="640" y="29" font-size="13" font-weight="400" fill="#202020" text-anchor="start">Sair</text>
+<text x="22" y="69" font-size="12" font-weight="400" fill="#202020" text-anchor="start">‹ Pastas</text>
+<text x="22" y="103" font-size="24" font-weight="700" fill="#202020" text-anchor="start">Uso diário</text>
+<text x="22" y="129" font-size="13" font-weight="500" fill="#505050" text-anchor="start">Relógios desta pasta</text>
+<rect x="22" y="150" width="207" height="137" rx="4" fill="#fff" stroke="#777"/>
+<rect x="22" y="150" width="207" height="79" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M22 150 L229 229" fill="none" stroke="#c8c8c8"/>
+<path d="M229 150 L22 229" fill="none" stroke="#c8c8c8"/>
+<rect x="100.5" y="179.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="125.5" y="193.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto</text>
+<text x="32" y="250" font-size="11" font-weight="500" fill="#505050" text-anchor="start">Casio</text>
+<text x="32" y="271" font-size="14" font-weight="700" fill="#202020" text-anchor="start">F-91W</text>
+<rect x="239" y="150" width="207" height="137" rx="4" fill="#fff" stroke="#777"/>
+<rect x="239" y="150" width="207" height="79" rx="0" fill="#eee" stroke="#aaa"/>
+<path d="M239 150 L446 229" fill="none" stroke="#c8c8c8"/>
+<path d="M446 150 L239 229" fill="none" stroke="#c8c8c8"/>
+<rect x="317.5" y="179.5" width="50" height="20" rx="0" fill="#eee" stroke="none"/>
+<text x="342.5" y="193.5" font-size="11" font-weight="500" fill="#404040" text-anchor="middle">Foto</text>
+<text x="249" y="250" font-size="11" font-weight="500" fill="#505050" text-anchor="start">Seiko</text>
+<text x="249" y="271" font-size="14" font-weight="700" fill="#202020" text-anchor="start">Seiko 5</text>
+</g>
+</svg>
