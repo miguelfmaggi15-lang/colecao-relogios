@@ -10,6 +10,12 @@ Projeto Integrado de DWS, POO e Banco de Dados · Etapa 1
 - [Diagrama de classes UML](docs/diagrama-classes.md)
 - [Resumo da Etapa 1](docs/ETAPA1.md)
 
+## Modelo lógico
+
+![Modelo lógico da coleção de relógios](docs/brmodelo-logico.svg)
+
+[Modelo lógico no brModelo Web](https://app.brmodeloweb.com/logic/6aec7694676def35996edb50)
+
 ## Planejamento das telas
 
 ### Mapa do site
