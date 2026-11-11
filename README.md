@@ -2,6 +2,8 @@
 
 Projeto Integrado de DWS, POO e Banco de Dados · Etapa 1
 
+[Etapa 2 — API Flask](docs/ETAPA2.md)
+
 ## Modelo conceitual
 
 ![Modelo conceitual da coleção de relógios](docs/brmodelo-conceitual.svg)
