@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coleção de Relógios</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="colecao.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <a class="marca" href="#colecao">Coleção de Relógios</a>
+    <nav aria-label="Menu principal" hidden>
+      <a href="#colecao">Coleção</a>
+      <a href="#pastas">Pastas</a>
+      <a href="#entrar">Sair</a>
+    </nav>
+  </header>
+  <main id="tela">
+    <p id="aviso" role="status" aria-live="polite"></p>
+    <div id="conteudo"></div>
+  </main>
+
+  <template id="entrada">
+    <section class="conta">
+      <h1></h1>
+      <fieldset disabled>
+        <label class="nome-conta">Nome <input autocomplete="name"></label>
+        <label>E-mail <input type="email" autocomplete="email"></label>
+        <label>Senha <input type="password"></label>
+        <button type="button" class="primario"></button>
+      </fieldset>
+      <p class="estado">Autenticação pendente nesta versão.</p>
+      <p><a class="trocar-conta"></a></p>
+      <a class="botao" href="#colecao">Abrir coleção de demonstração</a>
+    </section>
+  </template>
+
+  <template id="lista">
+    <div class="titulo"><h1>Minha coleção</h1><a class="botao primario" href="#novo">Novo relógio</a></div>
+    <p class="estado">Todos os relógios</p>
+    <ul class="relogios"></ul>
+  </template>
+
+  <template id="detalhe">
+    <a class="voltar" href="#colecao">‹ Minha coleção</a>
+    <div class="detalhe">
+      <div class="foto" aria-hidden="true">Sem foto</div>
+      <section>
+        <h1></h1>
+        <dl></dl>
+        <div class="acoes">
+          <a class="botao primario editar">Editar</a>
+          <button type="button" class="excluir">Excluir</button>
+        </div>
+      </section>
+    </div>
+  </template>
+
+  <template id="form-relogio">
+    <a class="voltar">‹ Minha coleção</a>
+    <h1></h1>
+    <form>
+      <div class="linha duas">
+        <div>
+          <label for="marca-relogio">Marca</label>
+          <select id="marca-relogio" name="id_marca" required></select>
+          <label class="nova-marca" hidden>Nome da nova marca <input name="nova_marca" maxlength="100"></label>
+        </div>
+        <label>Modelo <input name="modelo" maxlength="120" required></label>
+      </div>
+      <div class="linha tres">
+        <label>Referência <input name="referencia" maxlength="100" required></label>
+        <div><label for="mecanismo-relogio">Mecanismo</label>
+          <select id="mecanismo-relogio" name="mecanismo" required>
+            <option value="">Selecionar</option>
+            <option value="quartzo">Quartzo</option>
+            <option value="automatico">Automático</option>
+            <option value="manual">Manual</option>
+          </select>
+        </div>
+        <label>Cor do mostrador <input name="cor_mostrador" maxlength="60" required></label>
+      </div>
+      <div class="linha tres">
+        <label>Data de aquisição (opcional) <input name="data_aquisicao" type="date" min="1000-01-01" max="9999-12-31"></label>
+        <label>Preço (opcional) <input name="preco_aquisicao" type="number" min="0" max="9999999999.99" step="0.01"></label>
+        <label>Observações (opcional) <textarea name="observacoes" rows="2"></textarea></label>
+      </div>
+      <div class="linha duas">
+        <div><p class="rotulo">Fotos (opcional)</p><button type="button" disabled>Adicionar fotos</button><small>Envio de fotos pendente.</small></div>
+        <fieldset class="pastas-campo"><legend>Pastas (opcional)</legend><div class="opcoes-pastas"></div></fieldset>
+      </div>
+      <div class="acoes fim"><a class="botao cancelar">Cancelar</a><button class="primario">Salvar</button></div>
+    </form>
+  </template>
+
+  <template id="lista-pastas">
+    <h1>Pastas</h1>
+    <form class="criar-pasta">
+      <label>Nova pasta <input name="nome" placeholder="Nome da pasta" maxlength="100" required></label>
+      <button class="primario">Criar</button>
+    </form>
+    <ul class="pastas-lista"></ul>
+  </template>
+
+  <template id="detalhe-pasta">
+    <a class="voltar" href="#pastas">‹ Pastas</a>
+    <h1></h1>
+    <p class="estado">Relógios desta pasta</p>
+    <ul class="relogios"></ul>
+  </template>
+</body>
+</html>
