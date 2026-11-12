@@ -18,3 +18,14 @@ e **Excluir** para remover o relógio.
 As telas **Entrar** e **Criar conta** fazem parte do wireframe. O acesso de teste
 usa o usuário fictício configurado no Flask. A autenticação e o envio de fotos
 estão pendentes.
+
+## Demonstração online
+
+A [interface](https://miguelfmaggi15-lang.github.io/colecao-relogios/) fica no
+GitHub Pages. O Flask e o MySQL rodam no mesmo projeto do Railway. O Flask
+aceita requisições do endereço do Pages e usa um usuário fictício. A coleção
+da demonstração é compartilhada.
+
+O arquivo `railway.toml` define o comando de hospedagem. O Gunicorn executa a
+aplicação Flask e a preparação usa a estrutura de `database/banco.sql`.
+As credenciais do MySQL ficam nas variáveis do serviço Flask.

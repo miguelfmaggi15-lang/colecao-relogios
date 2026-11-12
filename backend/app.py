@@ -4,6 +4,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
 from flask import Flask, abort, g, jsonify, request, send_from_directory
+from flask_cors import CORS
 from pymysql import MySQLError
 from pymysql.err import IntegrityError
 
@@ -14,14 +15,23 @@ from models import Marca, Pasta, Relogio
 app = Flask(__name__, static_folder=Path(__file__).resolve().parent.parent / "frontend",
             static_url_path="")
 EMAIL_DEMONSTRACAO = 'demonstracao@example.invalid'
+ORIGEM_PAGES = os.getenv('COLECAO_ORIGEM_PAGES')
+if ORIGEM_PAGES:
+    CORS(app, origins=[ORIGEM_PAGES], always_send=False)
 
 
 @app.before_request
 def verificar_demonstracao():
-    if request.remote_addr not in ('127.0.0.1', '::1'):
-        abort(403)
-    if request.endpoint in ('inicio', 'static'):
-        return
+    if ORIGEM_PAGES:
+        if request.headers.get('Origin') != ORIGEM_PAGES:
+            abort(403, description='Abra a demonstração pelo GitHub Pages.')
+        if request.method == 'OPTIONS':
+            return
+    else:
+        if request.remote_addr not in ('127.0.0.1', '::1'):
+            abort(403)
+        if request.endpoint in ('inicio', 'static'):
+            return
     identificador = os.getenv('COLECAO_USUARIO_TESTE', '')
     if not identificador.isascii() or not identificador.isdecimal() or len(identificador) > 10:
         abort(503, description='Configure COLECAO_USUARIO_TESTE para testar a API local.')

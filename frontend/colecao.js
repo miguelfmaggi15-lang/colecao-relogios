@@ -1,3 +1,4 @@
+const enderecoApi = document.querySelector('meta[name=api-base]')?.content || '';
 const conteudo = document.querySelector('#conteudo');
 const aviso = document.querySelector('#aviso');
 const menu = document.querySelector('nav');
@@ -11,7 +12,7 @@ async function api(caminho, metodo = 'GET', dados) {
     opcoes.headers = { 'Content-Type': 'application/json' };
     opcoes.body = JSON.stringify(dados);
   }
-  const resposta = await fetch(caminho, opcoes);
+  const resposta = await fetch(enderecoApi + caminho, opcoes);
   if (!resposta.ok) {
     const dadosErro = await resposta.json().catch(() => ({}));
     throw new Error(dadosErro.erro || 'Não foi possível concluir a operação.');

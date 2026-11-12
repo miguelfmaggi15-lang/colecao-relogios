@@ -1,0 +1,2 @@
+[deploy]
+startCommand = "python backend/preparar_demonstracao.py && gunicorn --chdir backend --workers 1 --bind 0.0.0.0:$PORT app:app"
