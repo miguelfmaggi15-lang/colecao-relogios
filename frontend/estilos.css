@@ -1,0 +1,61 @@
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; font: 16px/1.5 Arial, sans-serif; color: #242424; background: #f4f4f3; }
+a { color: inherit; text-underline-offset: 3px; }
+.cabecalho { display: flex; justify-content: space-between; align-items: center; gap: 24px; min-height: 64px; padding: 0 max(24px, calc((100% - 1040px) / 2)); border-bottom: 1px solid #ccc; background: white; }
+.marca { font-weight: bold; white-space: nowrap; text-decoration: none; }
+nav { display: flex; gap: 24px; }
+nav a { text-decoration: none; }
+nav [aria-current] { font-weight: bold; text-decoration: underline; }
+nav a:last-child { margin-left: 24px; }
+main { max-width: 1090px; margin: 28px auto; padding: 0 24px 44px; }
+#conteudo { min-height: 440px; background: white; border: 1px solid #ccc; border-radius: 8px; padding: 32px; }
+#aviso:empty { display: none; }
+#aviso { border: 1px solid #777; background: white; padding: 10px 14px; }
+h1 { font-size: clamp(26px, 4vw, 36px); line-height: 1.15; margin: 0 0 20px; overflow-wrap: anywhere; }
+p { margin: 0 0 16px; }
+.estado, small { color: #525252; }
+small { display: block; margin-top: 6px; }
+.titulo { display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 8px 20px; }
+.voltar { display: inline-block; margin-bottom: 20px; }
+.botao, button { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; border: 1px solid #242424; background: white; color: #242424; border-radius: 4px; padding: 8px 15px; font: inherit; font-weight: bold; text-decoration: none; cursor: pointer; }
+.primario { background: #242424; color: white; }
+button:disabled { opacity: .55; cursor: default; }
+:focus-visible { outline: 3px solid #535353; outline-offset: 3px; }
+.relogios { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; margin: 0; padding: 0; }
+.relogios a { display: block; border: 1px solid #bdbdbd; border-radius: 5px; overflow: hidden; text-decoration: none; }
+.relogios a:hover strong { text-decoration: underline; }
+.relogios small, .relogios strong { display: block; margin: 4px 12px; overflow-wrap: anywhere; }
+.relogios strong { margin-bottom: 12px; }
+.foto { display: grid; place-items: center; min-height: 120px; background: #ececec; color: #555; border: 1px solid #ddd; }
+.detalhe { display: grid; grid-template-columns: 44% 1fr; gap: 32px; align-items: start; }
+.detalhe .foto { min-height: 230px; }
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 8px 14px; margin: 0 0 20px; }
+dt, label, legend, .rotulo { font-weight: bold; }
+dd { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+label { display: block; min-width: 0; }
+input, select, textarea { display: block; width: 100%; margin-top: 5px; min-height: 40px; border: 1px solid #969696; border-radius: 4px; padding: 7px 9px; font: inherit; background: white; color: #242424; }
+input[type=checkbox] { width: auto; min-height: auto; display: inline; }
+textarea { resize: vertical; }
+.linha { display: grid; gap: 18px; margin-bottom: 18px; }
+.duas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.tres { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.nova-marca { margin-top: 10px; }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.pastas-campo { border: 1px solid #969696; border-radius: 4px; padding: 4px 12px 10px; }
+.pastas-campo label { font-weight: normal; }
+.pastas-campo p, .rotulo { margin: 0 0 5px; }
+.acoes { display: flex; flex-wrap: wrap; gap: 10px; }
+.fim { justify-content: end; }
+.criar-pasta { display: flex; align-items: end; gap: 12px; }
+.pastas-lista { list-style: none; padding: 0; margin: 22px 0 0; }
+.pastas-lista li { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 0; border-bottom: 1px solid #ccc; overflow-wrap: anywhere; }
+.conta { width: min(100%, 360px); margin: 32px auto; }
+.conta label { margin-bottom: 12px; }
+.conta fieldset button { width: 100%; margin-bottom: 12px; }
+@media (max-width: 680px) {
+  .cabecalho { flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
+  main { padding: 0 12px 25px; }
+  #conteudo { padding: 20px; }
+  .relogios, .detalhe, .linha { grid-template-columns: 1fr; }
+}

@@ -1,8 +1,9 @@
 import os
 from datetime import date
 from decimal import Decimal, InvalidOperation
+from pathlib import Path
 
-from flask import Flask, abort, g, jsonify, request
+from flask import Flask, abort, g, jsonify, request, send_from_directory
 from pymysql import MySQLError
 from pymysql.err import IntegrityError
 
@@ -10,7 +11,8 @@ from conexao import conectar
 from dao import FotoDAO, MarcaDAO, PastaDAO, RelogioDAO, UsuarioDAO
 from models import Marca, Pasta, Relogio
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder=Path(__file__).resolve().parent.parent / "frontend",
+            static_url_path="")
 EMAIL_DEMONSTRACAO = 'demonstracao@example.invalid'
 
 
@@ -18,6 +20,8 @@ EMAIL_DEMONSTRACAO = 'demonstracao@example.invalid'
 def verificar_demonstracao():
     if request.remote_addr not in ('127.0.0.1', '::1'):
         abort(403)
+    if request.endpoint in ('inicio', 'static'):
+        return
     identificador = os.getenv('COLECAO_USUARIO_TESTE', '')
     if not identificador.isascii() or not identificador.isdecimal() or len(identificador) > 10:
         abort(503, description='Configure COLECAO_USUARIO_TESTE para testar a API local.')
@@ -127,6 +131,11 @@ def ler_relogio(id_relogio=None):
         'preco_aquisicao': preco,
         'observacoes': texto(dados, 'observacoes', 65535, opcional=True),
     })
+
+
+@app.route('/')
+def inicio():
+    return send_from_directory(app.static_folder, 'index.html')
 
 
 @app.route('/marcas', methods=['GET'])

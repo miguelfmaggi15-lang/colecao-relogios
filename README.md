@@ -1,8 +1,8 @@
 # Coleção de Relógios
 
-Projeto Integrado de DWS, POO e Banco de Dados · Etapa 1
+Projeto Integrado de DWS, POO e Banco de Dados
 
-[Etapa 2 — API Flask](docs/ETAPA2.md)
+[Etapa 2 — API Flask](docs/ETAPA2.md) · [Etapa 3 — Interface web](docs/ETAPA3.md)
 
 ## Modelo conceitual
 
